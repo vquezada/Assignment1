@@ -383,7 +383,7 @@ void Nucleotide::gaussianStrands() {
 
 
 		outFile << "Gaussian Strands: " << endl;
-		int = i;
+		int i;
 		for(i=0; i<1000; ++i) {
       double a = rand() / (RAND_MAX + 1.0);
 			double b = rand() / (RAND_MAX + 1.0);
