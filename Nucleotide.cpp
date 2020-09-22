@@ -215,7 +215,7 @@ void Nucleotide::calcProbability (string dnaFile){
     outFile << "C: " << probC <<endl;
     outFile << "G: " << probG <<endl;
 
-    d = "";
+    
     outFile.close();
     file.close();
   }
@@ -383,8 +383,8 @@ void Nucleotide::gaussianStrands() {
 
 
 		outFile << "Gaussian Strands: " << endl;
-
-		for(int i=0; i<1000; ++i) {
+		int = i;
+		for(i=0; i<1000; ++i) {
       double a = rand() / (RAND_MAX + 1.0);
 			double b = rand() / (RAND_MAX + 1.0);
 			double c = (sqrt(-2 * (log(a))) * cos(2 * M_PI * b));
